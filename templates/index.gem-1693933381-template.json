@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "167548135556d65f77": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "pagefly-home": {
+      "type": "pagefly-home",
+      "settings": {}
+    },
+    "pina-instagram": {
+      "type": "pina-instagram",
+      "settings": {
+        "title": "Follow Us On Instagram",
+        "show_profile": true,
+        "timeline": "own",
+        "small": "2",
+        "medium": "3",
+        "large": "4",
+        "gutter": "2",
+        "count": "8",
+        "hashtags": "",
+        "container_class": "page-width",
+        "margin_top": "",
+        "margin_left": "",
+        "margin_bottom": "",
+        "margin_right": "",
+        "desktop_width": "",
+        "mobile_width": "",
+        "tablet_width": ""
+      }
+    },
+    "1692902524c4fd5975": {
+      "type": "apps",
+      "blocks": {
+        "0695bba3-ba4a-4958-8563-52f821f74306": {
+          "type": "shopify:\/\/apps\/track123-order-tracking-upsell\/blocks\/search2\/60c49c11-a7c0-49a0-861e-2f84d2f294e6",
+          "settings": {
+            "search_by": "by_order_number_or_by_tracking_number",
+            "date_format": "MMM D, YYYY",
+            "time_format": "hh:mm a",
+            "show_estimated_delivery_time": true,
+            "show_carrier_info": true,
+            "show_tracking_number": true,
+            "link_to_carrier_website": true,
+            "show_package_info": true,
+            "show_reorder_button": true,
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "0695bba3-ba4a-4958-8563-52f821f74306"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "167548135556d65f77",
+    "pagefly-home",
+    "pina-instagram",
+    "1692902524c4fd5975"
+  ]
+}
